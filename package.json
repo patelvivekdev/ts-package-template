@@ -1,7 +1,7 @@
 {
   "name": "@patelvivekdev/ts-npm-template",
   "description": "A template for npm packages with TypeScript",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "author": "Vivek Patel <me@patelvivek.dev>",
   "license": "MIT",
