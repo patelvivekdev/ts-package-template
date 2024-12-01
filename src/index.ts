@@ -13,6 +13,16 @@ export class Calculator {
   }
 
   /**
+   * Subtracts two numbers
+   * @param a First number
+   * @param b Second number
+   * @returns Difference of the two numbers
+   */
+  subtract(a: number, b: number): number {
+    return a - b;
+  }
+
+  /**
    * Multiplies two numbers
    * @param a First number
    * @param b Second number

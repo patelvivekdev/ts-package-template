@@ -11,7 +11,6 @@ A modern, efficient template for creating NPM packages using TypeScript.
 - 🧪 Comprehensive testing setup with Vitest
 - 🔄 Continuous Integration ready
 
-
 ## Getting Started
 
 1. Clone this template

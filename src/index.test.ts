@@ -14,6 +14,14 @@ describe('Calculator', () => {
     });
   });
 
+  describe('subtract', () => {
+    it('should return the difference of two numbers', () => {
+      expect(calculator.subtract(3, 2)).toBe(1);
+      expect(calculator.subtract(-1, -1)).toBe(0);
+      expect(calculator.subtract(0, 5)).toBe(-5);
+    });
+  });
+
   describe('multiply', () => {
     it('should return the product of two numbers', () => {
       expect(calculator.multiply(2, 3)).toBe(6);
