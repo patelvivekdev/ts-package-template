@@ -1,7 +1,9 @@
+import type { calculator } from './types';
+
 /**
  * A simple calculator class demonstrating TypeScript package functionality
  */
-export class Calculator {
+export class Calculator implements calculator {
   /**
    * Adds two numbers together
    * @param a First number
@@ -30,6 +32,19 @@ export class Calculator {
    */
   multiply(a: number, b: number): number {
     return a * b;
+  }
+
+  /**
+   * Divides two numbers
+   * @param a First number
+   * @param b Second number
+   * @returns Quotient of the two numbers
+   */
+  divide(a: number, b: number): number {
+    if (b === 0) {
+      throw new Error('Cannot divide by zero');
+    }
+    return a / b;
   }
 }
 

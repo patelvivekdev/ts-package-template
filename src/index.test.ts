@@ -29,6 +29,18 @@ describe('Calculator', () => {
       expect(calculator.multiply(0, 5)).toBe(0);
     });
   });
+
+  describe('divide', () => {
+    it('should return the quotient of two numbers', () => {
+      expect(calculator.divide(6, 3)).toBe(2);
+      expect(calculator.divide(-6, -3)).toBe(2);
+      expect(calculator.divide(0, 5)).toBe(0);
+    });
+
+    it('should throw an error when dividing by zero', () => {
+      expect(() => calculator.divide(5, 0)).toThrow('Cannot divide by zero');
+    });
+  });
 });
 
 describe('greet', () => {

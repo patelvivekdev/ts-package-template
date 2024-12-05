@@ -19,8 +19,6 @@
     /* Module Resolution */
     "module": "Preserve",
 
-    "composite": true,
-
     /* Type Checking */
     "noEmit": true,
 
