@@ -1,5 +1,11 @@
 # Changelog for `ts-npm-template`
 
+## 1.0.0-beta.0
+
+### Major Changes
+
+- 738d94d: go to major version using beta
+
 ## 0.0.4
 
 ### Patch Changes
